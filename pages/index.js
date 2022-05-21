@@ -20,7 +20,7 @@ export default function Home (props) {
 				</div>
 				{/*Products*/ }
 				<div className="products container mx-auto my-32 px-4 xl:px-0">
-					<h2 className="products-main-title main-title mb-5 text-xl uppercase"><span className="main-title-inner">Tất cả mặt hàng</span></h2>
+					<h2 className="products-main-title main-title mb-5 text-xl uppercase"><span className="main-title-inner">Tất cả bất động sản</span></h2>
 					<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
 						{ products.length ? (
 							products.map( product => <Product ishome="true" key={ product.id } product={ product }/> )

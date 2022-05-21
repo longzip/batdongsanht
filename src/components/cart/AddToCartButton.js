@@ -71,7 +71,7 @@ const AddToCart = (props) => {
             {/*	Check if its an external product then put its external buy link */}
             {"ExternalProduct" === product.__typename ? (
                     <a href={product?.externalUrl ? `${ACCESSTRADE_URL}${product?.externalUrl}`  : '/'} target="_blank"
-                       className="px-3 py-1 rounded-sm mr-3 text-sm border-solid border border-current inline-block hover:bg-purple-600 hover:text-white hover:border-purple-600">
+                       className="px-3 py-1 rounded-sm mr-3 text-sm border-solid border border-current inline-block hover:bg-yellow-600 hover:text-white hover:border-yellow-600">
 						{product?.buttonText ?? 'Mua ngay'}
                     </a>
                 ) :

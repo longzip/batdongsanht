@@ -17,7 +17,7 @@ const Layout = (props) => {
       <ApolloProvider client={client}>
         <div>
           <Head>
-            <title>Hàng tiêu dùng thiết yếu bình ổn thị trường ở Bưu điện xã Tự Lập</title>
+            <title>Bất động sản HT: Nhận ký gửi, mua bán nhà đất, đo đạc, sang tên sổ đỏ</title>
           </Head>
           <Header />
           {props.children}
